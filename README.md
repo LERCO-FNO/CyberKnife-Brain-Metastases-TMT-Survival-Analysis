@@ -1,15 +1,19 @@
-# TMT Analysis Pipeline
+# Temporal Muscle Thickness and Machine Learning-Based Survival Prediction
 
-R scripts for statistical analysis of the **Trail Making Test (TMT)** in a clinical cohort, including descriptive analysis, inter-rater reliability, survival analysis, and concept-drift analysis.
+R scripts accompanying the study:
 
-The repository contains the analysis scripts used to process TMT measurements obtained from multiple raters and to evaluate their relationship with overall survival.
+**Temporal Muscle Thickness and Machine Learning-Based Survival Prediction in Patients with Brain Metastases Treated with CyberKnife Stereotactic Radiotherapy**
+
+This repository contains the R scripts used for data preprocessing, statistical analysis, inter-rater reliability assessment, survival analysis, and machine learning-based survival prediction using temporal muscle thickness (TMT) in patients with brain metastases treated with CyberKnife stereotactic radiotherapy.
+
+The analysis evaluates TMT measurements obtained from multiple independent raters and investigates their association with overall survival. In addition, machine learning approaches are used to explore survival prediction and temporal changes in model behaviour.
 
 ---
 
 ## Repository structure
 
 ```text
-TMT-analysis/
+Temporal-Muscle-Thickness-Survival-ML/
 │
 ├── R/
 │   ├── 01_demographic_and_clinical_data.R
